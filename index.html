@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Css/index.css">
+    <script src="https://kit.fontawesome.com/8d314d4f5d.js" crossorigin="anonymous"></script>
+    <script src="/Js/index.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">R<span class="logo">K</span></h1>
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Ranjith</span> <br>From Trichy</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------about----------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/about me 1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est tempore maxime, ducimus dicta eveniet inventore? Explicabo nihil delectus sit rem modi similique, facere maiores eveniet quae odio sint laboriosam quidem eos, ea magnam molestiae
+                        illo quas nesciunt ad assumenda. Vel dicta vero tenetur odit voluptatibus deleniti quisquam, velit debitis animi?
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents activ-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>UI?UX</span><br>Designing Web/App Interfaces</li>
+                            <li>
+                                <span>Web Development</span><br>Web App Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>2025 - Current</span><br>Medical Billing at Omega Healthcare</li>
+                            <li>
+                                <Span>2024</Span><br>Intership at Shiash Info Tech</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2022-2024</span><br>MCA from MAM College of Engineering</li>
+                            <li>
+                                <Span>2019-2022</Span><br>BCA from Urumu Dhanalakshmi College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------Services----------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, earum obcaecati. Vitae possimus aperiam inventore minima facilis amet dicta nostrum?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, earum obcaecati. Vitae possimus aperiam inventore minima facilis amet dicta nostrum?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------Portfolio--------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            <div class="project-list">
+                <div class="work">
+                    <img src="Images/pexels-pixabay-267885.jpg">
+                    <div class="layer">
+                        <h3>College Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dignissimos aperiam doloremque id odit accusantium ad ipsam veniam, sapiente beatae.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/todo list 1.avif">
+                    <div class="layer">
+                        <h3>Book Sky</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dignissimos aperiam doloremque id odit accusantium ad ipsam veniam, sapiente beatae.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Interior Design.avif">
+                    <div class="layer">
+                        <h3>Interior Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dignissimos aperiam doloremque id odit accusantium ad ipsam veniam, sapiente beatae.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!---------------------------Contact------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ranjithm114@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9715435855</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Ranjith.</p>
+        </div>
+    </div>
+
+    <script>
+    </script>
+    <script>
+    </script>
+</body>
+
+</html>
+
+</html>
